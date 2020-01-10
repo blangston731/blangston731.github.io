@@ -3,7 +3,8 @@ body {
     line-height: 1.5;
 }
 
-body, header,
+body,
+header,
 nav,
 main,
 footer {
@@ -18,13 +19,18 @@ header {
     text-align: center;
     padding: 1.0rem;
 }
+
 header img {
-float: right;
-margin: 10px;
+    float: right;
+    margin: 10px;
 }
 
 footer {
     background-color: #004953;
     color: white;
     text-align: center;
+}
+
+footer a {
+    color: white;
 }
