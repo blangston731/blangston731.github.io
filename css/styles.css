@@ -1,13 +1,14 @@
 body {
+
     font-size: 18px;
     line-height: 1.5;
     background-color: #FFF5EE;
+    font-family: 'Handlee', cursive;
 }
 
 body,
 header,
 nav,
-main,
 footer {
     margin: 1.25rem auto;
     max-width: 760px;
@@ -26,6 +27,10 @@ header img {
     margin: 10px;
     width: 170px;
     height: auto;
+}
+
+h3 {
+    padding-left: 10px;
 }
 
 footer {
