@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
     line-height: 1.5;
+    background-color: #FFF5EE;
 }
 
 body,
@@ -23,6 +24,8 @@ header {
 header img {
     float: right;
     margin: 10px;
+    width: 170px;
+    height: auto;
 }
 
 footer {
