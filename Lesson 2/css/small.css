@@ -1,7 +1,15 @@
 body {
-
     font-size: 25px;
     line-height: 1.5;
     background-color: #FFF5EE;
+    font-family: 'Handlee', cursive;
+}
+header, footer {
+    background-color: #004953;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+}
+h1 {
     font-family: 'Handlee', cursive;
 }
