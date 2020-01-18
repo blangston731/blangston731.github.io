@@ -1,0 +1,13 @@
+@media only screen and (min-width: 32.5em){
+    body{
+        font-size: 25px;
+    }
+    main{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        
+    }
+    .s3{
+        grid-column: span 2;
+    }
+}

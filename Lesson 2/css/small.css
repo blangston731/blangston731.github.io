@@ -1,15 +1,52 @@
 body {
-    font-size: 25px;
+    margin: 10px;
+    font-size: 20px;
     line-height: 1.5;
-    background-color: #FFF5EE;
+    background-color: white;
     font-family: 'Handlee', cursive;
+    text-align: center;
 }
-header, footer {
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+section {
+    background-color: #FFF5EE;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+header,
+footer {
     background-color: #004953;
     color: white;
     text-align: center;
     padding: .5rem;
+    border-radius: 10px;
 }
-h1 {
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2 {
     font-family: 'Handlee', cursive;
+}
+
+h3,
+h4 {
+    font-family: 'Architects Daughter', cursive;
+}
+footer a {
+    color: white;
 }
