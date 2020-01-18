@@ -22,7 +22,6 @@ header, footer {
 }
 
 header img {
-    float: right;
     margin: 10px;
     width: 170px;
     height: auto;
