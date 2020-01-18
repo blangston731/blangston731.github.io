@@ -12,14 +12,13 @@ nav,
 footer {
     margin: 1.25rem auto;
     max-width: 760px;
-
 }
 
-header {
+header, footer {
     background-color: #004953;
     color: white;
     text-align: center;
-    padding: 1.0rem;
+    padding: .5rem;
 }
 
 header img {
@@ -29,14 +28,14 @@ header img {
     height: auto;
 }
 
-h3 {
-    padding-left: 10px;
+h1 {
+    font-size: 1.5rem;
 }
 
-footer {
-    background-color: #004953;
-    color: white;
-    text-align: center;
+h3 {
+    font-size: 1rem;
+    font-family: 'Architects Daughter', cursive;
+    padding-left: 10px;
 }
 
 footer a {
