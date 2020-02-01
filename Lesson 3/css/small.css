@@ -7,7 +7,7 @@ body {
 
 body,
 footer {
-    margin: 1.5rem;
+    margin: 1.5rem auto;
     max-width: 800px;
     text-align: center;
 
@@ -31,23 +31,18 @@ footer{
 
 nav {
     background-color: #0b7a75;
-    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
-nav,
-ul {
+.list-container{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding:0;
     overflow: hidden;
 
 }
 
-nav,
-ul,
-a {
-    display: flex;
-    flex-flow: column;
+.list-container li{
     color: #ffff;
     padding: .2em;
 }

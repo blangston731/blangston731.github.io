@@ -1,7 +1,10 @@
 @media only screen and (min-width: 32.5em) {
+    .list-container {
+        display: flex;
+    }
 
-    nav, ul, a {
-        flex-flow: row;
-        justify-content: center;
+    .list-container li {
+        display: block;
+        flex: 1 1 100%;
     }
 }
