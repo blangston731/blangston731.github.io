@@ -1,0 +1,59 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #d7c9aa;
+
+}
+
+body,
+footer {
+    margin: 1.5rem;
+    max-width: 800px;
+    text-align: center;
+
+}
+
+header {
+    background-color: #19535f;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.logoWhite{
+    max-width:250px;
+}
+
+nav {
+    background-color: #0b7a75;
+    text-align: center;
+}
+
+nav,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav,
+ul,
+a {
+    display: flex;
+    flex-flow: column;
+    color: #ffff;
+    padding: .2em;
+}
+
+.introName {
+    background-color: #56351e;
+    color: white;
+}
+
+.part {
+
+    background-color: #f0f3f5;
+    padding: .5em;
+}
