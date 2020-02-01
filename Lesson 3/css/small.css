@@ -13,11 +13,16 @@ footer {
 
 }
 
-header {
+header, footer {
     background-color: #19535f;
     color: white;
     font-size: 2em;
     text-align: center;
+}
+
+footer{
+    font-size:1em;
+    margin:0;
 }
 
 .logoWhite{
