@@ -23,7 +23,7 @@
     <header><img src="images/Weathersite-logo-white.png" alt="Logo for MyPreston.info with white text" />
         <div>Local weather has never been closer!</div>
     </header>
-    <nav class="clearfix layout">
+    <nav class="layout">
         <button onclick="toggleMenu()">&#9776</button>
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
@@ -36,18 +36,26 @@
     </nav>
     <main>
         <h1>Preston Idaho</h1>
-            <article class="container"><h2>Hero w/Weather Summary</h2></article>
-            <article class="container"><h2>5 day Forecast</h2></article>
-            <article class="container"><h2>Article</h2></article>
-            <article class="container"><h2>Contact Information</h2></article>
-       
+        <article class="container">
+            <h2>Hero w/Weather Summary</h2>
+        </article>
+        <article class="container">
+            <h2>5 day Forecast</h2>
+        </article>
+        <article class="container">
+            <h2>Article</h2>
+        </article>
+        <article class="container">
+            <h2>Contact Information</h2>
+        </article>
+
 
     </main>
-    <footer>    &copy;My Preston | Attributions | Breanne Langston 
-    <br />
-    <span id="lastModified"><script>
-            document.write(document.lastModified)
-        </script> </span></footer>
+    <footer> &copy;My Preston | Attributions | Breanne Langston
+        <br />
+        <span id="currentDateId">Saturday, 1 February 2020</span></footer>
     <script src="js/toggleMenu.js"></script>
-    
+    <script src="ji/currentDate.js"></script>
+
+
 </body>

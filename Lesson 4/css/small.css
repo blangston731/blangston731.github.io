@@ -4,19 +4,23 @@ body {
     background-color: #d7c9aa;
     font-family: 'DM Serif Text', serif;
 }
-h1, h2 {
+
+h1,
+h2 {
     font-family: 'Architects Daughter', cursive;
 }
-header, footer {
+
+header,
+footer {
     display: block;
     background-color: #19535f;
     font-size: 1.75em;
     color: #f0f3f5;
-    text-align:center;
-    padding-bottom:10px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
-header img{
+header img {
     max-width: 275px;
 }
 
@@ -52,23 +56,27 @@ nav ul li.active a {
 nav ul li a:hover {
     background-color: rgba(11, 122, 117, 0.6);
 }
-main{
+
+nav ul.hide {
+    display: none
+}
+
+main {
     text-align: center;
 }
-main h1, h2{
-    color:#56351e;
+
+main h1,
+h2 {
+    color: #56351e;
 }
-.container{
+
+.container {
     margin: 0 5% 0 5%;
     background-color: #f0f3f5;
 }
-footer{
+
+footer {
     margin: 2%;
     padding: 5px;
     font-size: 1em;
-}
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
 }
