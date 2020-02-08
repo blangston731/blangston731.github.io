@@ -3,6 +3,9 @@
         height: 150px;
         width: auto;
     }
+    .title{
+        font-size: 2em;
+    }
 
     nav button {
         display: none;
