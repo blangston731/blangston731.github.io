@@ -3,12 +3,12 @@
         padding: 20px;
     }
 
-    .title{
+    .title {
         font-size: 2.5rem;
     }
 
     header img {
-        height:200px;
-        width:auto;
+        height: 200px;
+        width: auto;
     }
 }

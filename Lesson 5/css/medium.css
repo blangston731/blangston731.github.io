@@ -1,9 +1,10 @@
-@media (min-width: 32.5em){
+@media (min-width: 32.5em) {
     header img {
         height: 150px;
         width: auto;
     }
-    .title{
+
+    .title {
         font-size: 2em;
     }
 
