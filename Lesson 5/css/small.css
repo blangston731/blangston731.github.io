@@ -5,28 +5,36 @@ body {
     font-family: 'DM Serif Text', serif;
 }
 
+.displayMsg {
+    background-color: #f0f3f5;
+    padding: 5px;
+    text-align: center;
+}
+
 h1,
 h2 {
     font-family: 'Architects Daughter', cursive;
 }
 
-header,
-footer {
-    display: block;
+header {
     background-color: #19535f;
-    font-size: 1.75em;
+    font-size: 1em;
     color: #f0f3f5;
-    text-align: center;
     padding-bottom: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-.title{
-    font-size: 30px;
+.title {
+    display: flex;
+    flex-direction: column;
+
 }
 
 header img {
-    display: inline-block;
-    max-width: 275px;
+    height: 100px;
+    width: auto;
 }
 
 nav button {
@@ -70,6 +78,8 @@ main {
     text-align: center;
 }
 
+
+
 main h1,
 h2 {
     color: #56351e;
@@ -81,7 +91,12 @@ h2 {
 }
 
 footer {
+    background-color: #19535f;
+    font-size: 1.75em;
+    color: #f0f3f5;
     margin: 2%;
     padding: 5px;
     font-size: 1em;
+    display: block;
+    text-align: center;
 }

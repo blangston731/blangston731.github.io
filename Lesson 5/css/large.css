@@ -1,6 +1,6 @@
-@media only screen and (min-width: 58em) {
+@media only screen and (min-width: 75em) {
     header {
-        font-size: 2rem;
+        padding: 20px;
     }
 
     .title{
