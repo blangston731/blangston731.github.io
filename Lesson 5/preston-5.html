@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>Windy Ways</title>
-    <meta name="description"
-        content="Windy Ways Home page">
-    
+    <meta name="description" content="Windy Ways Home page">
+
 
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|DM+Serif+Text&display=swap"
         rel="stylesheet">
@@ -20,9 +19,16 @@
 </head>
 
 <body>
-    <header><img src="images/Weathersite-logo.png" alt="Logo for WindyWays.info with white text" />
-        <h1 class="title">Windy Ways</h1>
-        <div>Local weather has never been closer!</div>
+    <section class="displayMsg">
+        <script src="js/message.js"></script>
+    </section>
+    <header>
+        <img src="images/Weathersite-logo.png" alt="Logo for WindyWays.info with white text" />
+        <section class="title">
+            <h1 class="title">Windy Ways</h1>
+            <div>Local weather has never been closer!</div>
+        </section>
+
     </header>
     <nav class="layout">
         <button onclick="toggleMenu()">&#9776</button>
@@ -36,6 +42,7 @@
         </ul>
     </nav>
     <main>
+
         <h1>Preston Idaho</h1>
         <article class="container">
             <h2>Hero w/Weather Summary</h2>
@@ -57,7 +64,7 @@
         <script src="js/currentDate.js"></script>
     </footer>
     <script src="js/toggleMenu.js"></script>
-    
+
 
 
 </body>
