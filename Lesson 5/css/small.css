@@ -78,7 +78,11 @@ main {
     text-align: center;
 }
 
-
+.hero-img{
+    height: auto;
+    width: 350px;
+    padding: 5px;
+}
 
 main h1,
 h2 {
