@@ -5,6 +5,12 @@ body {
     font-family: 'DM Serif Text', serif;
 }
 
+.displayMsg {
+    background-color: #f0f3f5;
+    padding: 5px;
+    text-align: center;
+}
+
 h1,
 h2 {
     font-family: 'Architects Daughter', cursive;
@@ -23,7 +29,7 @@ header {
 .title {
     display: flex;
     flex-direction: column;
-   
+
 }
 
 header img {
@@ -71,6 +77,8 @@ nav ul.hide {
 main {
     text-align: center;
 }
+
+
 
 main h1,
 h2 {
