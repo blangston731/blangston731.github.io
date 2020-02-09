@@ -1,32 +1,42 @@
-@media (mi-width: 32.5em) {
+@media only screen and (min-width: 32.5em) {
     header img {
         height: 150px;
         width: auto;
     }
+
     .title {
-        font-size: 2em;
+        font-size: 1.5em;
     }
+
     nav button {
         display: none;
     }
 
-    nav ul.hide{
-        display:flex;
+    nav ul.hide {
+        display: flex;
     }
-    nav ul{
-        margin-left:2%;
+
+    nav ul {
+        margin-left: 2%;
     }
+
     nav ul li {
-        display:block;
+        display: block;
         flex: 1 1 100%;
     }
+
     nav ul li a {
-        border: none ;
+        border: none;
         border-right: 1px solid rbga(0, 0, 0, 0.3);
         padding: .6rem 1rem;
     }
+
     .hero-img {
-        width: 400px;
+        width: 80%;
         height: auto;
+    }
+
+    .forecast {
+        display: block;
     }
 }

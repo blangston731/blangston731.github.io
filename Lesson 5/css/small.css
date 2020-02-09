@@ -1,5 +1,5 @@
 body {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5rem;
     background-color: #d7c9aa;
     font-family: 'DM Serif Text', serif;
@@ -78,20 +78,53 @@ main {
     text-align: center;
 }
 
-.hero-img{
-    height: auto;
-    width: 350px;
-    padding: 5px;
-}
-
 main h1,
 h2 {
     color: #56351e;
 }
 
-.container {
-    margin: 0 5% 0 5%;
+.heroContainer {
+    position: relative;
+}
+
+.heroImg {
+    width: 95%;
+}
+
+.weatherContain {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    height: 10.5em;
+    font-size: 75%;
+    line-height: .5;
+    border: 1px solid #000;
     background-color: #f0f3f5;
+    padding: 1rem;
+    opacity: .8;
+
+}
+
+.forecast {
+    display: none;
+}
+
+.articleImg {
+    width: 95%;
+    padding-top: 8px;
+}
+
+.containArticle {
+    margin: 0 5% 2% 5%;
+    background-color: #f0f3f5;
+    padding: 1px 5px 1px 5px;
+}
+
+.contactInfo {
+    background-color: #0b7a75;
+    margin: 0 2% 0 2%;
+    line-height: 1;
+    padding: 1px;
 }
 
 footer {
