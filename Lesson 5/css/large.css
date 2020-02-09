@@ -11,10 +11,12 @@
         height: 200px;
         width: auto;
     }
-    .heroImg{
+
+    .heroImg {
         width: 1300px;
     }
-    .weatherContain{
-        left: 170px;
+
+    .weatherContain {
+        left: 280px;
     }
 }

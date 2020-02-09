@@ -119,9 +119,11 @@ h2 {
     background-color: #f0f3f5;
     padding: 1px 5px 1px 5px;
 }
-iframe{
+
+iframe {
     display: none;
 }
+
 .contactInfo {
     background-color: #0b7a75;
     margin: 0 2% 0 2%;
