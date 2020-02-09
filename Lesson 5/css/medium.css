@@ -31,13 +31,26 @@
         padding: .6rem 1rem;
     }
 
-    .hero-img {
-        width: 80%;
+    .heroImg {
+        width: 700px;
         height: auto;
+    }
+
+    .weatherContain {
+        height: 15em;
+        font-size: 90%;
+        line-height: 1;
     }
 
     .forecast {
         display: block;
     }
+    iframe {
+        display:flex;
+    }
 
+    .articleImg {
+        max-width: 350px;
+        float: right;
+    }
 }

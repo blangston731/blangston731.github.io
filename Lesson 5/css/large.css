@@ -11,8 +11,10 @@
         height: 200px;
         width: auto;
     }
-    .hero-img{
-        width:70%;
-        height: auto;
+    .heroImg{
+        width: 1300px;
+    }
+    .weatherContain{
+        left: 170px;
     }
 }
