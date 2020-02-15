@@ -1,0 +1,22 @@
+@media only screen and (min-width: 72em) {
+    header {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    header img {
+        height: 200px;
+        width: auto;
+    }
+
+    .heroImg {
+        width: 1300px;
+    }
+
+    .weatherContain {
+        left: 280px;
+    }
+}
