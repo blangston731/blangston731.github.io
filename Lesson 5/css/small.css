@@ -57,6 +57,7 @@ nav ul {
 
 nav ul li a {
     display: block;
+    text-align: center;
     padding: .8rem 2%;
     text-decoration: none;
     color: #f0f3f5;
