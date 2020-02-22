@@ -7,10 +7,12 @@
     .title {
         font-size: 1.5em;
     }
-main{
-    max-width: 999px;
-    align-content: center;
-}
+
+    main {
+        max-width: 999px;
+        align-content: center;
+    }
+
     nav button {
         display: none;
     }

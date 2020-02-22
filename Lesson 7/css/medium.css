@@ -1,4 +1,13 @@
 @media only screen and (min-width: 32.5em) {
+    header img {
+        height: 150px;
+        width: auto;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
     nav button {
         display: none;
     }
@@ -20,5 +29,9 @@
         border: none;
 
         padding: .6rem 1rem;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
     }
 }
