@@ -1,6 +1,6 @@
 @media only screen and (min-width: 72em) {
     main{
-        max-width: 1400px;
+        max-width: 1800px;
     }
     header {
         padding: 20px;
@@ -20,6 +20,6 @@
     }
 
     .weatherContain {
-        left: 280px;
+      font-size: 95%;
     }
 }

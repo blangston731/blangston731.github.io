@@ -3,6 +3,7 @@ body {
     line-height: 1.5rem;
     background-color: #d7c9aa;
     font-family: 'DM Serif Text', serif;
+    align-content: center;
 }
 main {
     max-width: 418px;
@@ -92,7 +93,7 @@ h2 {
 }
 
 .heroImg {
-    width: 25em;
+   
 }
 
 .weatherContain {
