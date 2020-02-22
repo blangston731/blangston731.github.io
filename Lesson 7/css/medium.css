@@ -34,4 +34,7 @@
     main {
         grid-template-columns: 1fr 1fr;
     }
+
+    main h1 {
+        grid-column: 1 / span 2;
 }
