@@ -1,0 +1,59 @@
+table {
+    font-family: Ubuntu, sans-serif;
+    border: 2px double #e7f0ed;
+    font-size: 24px;
+    border-collapse: collapse;
+    box-shadow: 8px 8px 18px #628ca6;
+}
+
+thead {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #7fb9c2;
+    border: 2px double #e7f0ed;
+}
+
+th {
+    padding: 10px;
+}
+
+tbody {
+    border: 2px double #e7f0ed;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border: 2px double #dedede;
+}
+
+tbody tr:nth-child(1) {
+    font-weight: bold;
+    color: white;
+    background-color: #628ca6;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(2n+3) {
+    background-color: #e7ffed;
+}
+
+tr:nth-child(5) td:nth-child(3){
+    background-color: #628ca6;
+    color: white;
+}
+
+tr:nth-child(6) td:nth-child(1){
+    font-style: italic;
+}
+
+tfoot {
+    background-color: #7fb9c2;
+    font-size: .75em;
+}
