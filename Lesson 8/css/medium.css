@@ -36,5 +36,8 @@
     form input.submitBtn{
         max-width: 20rem;
     }
+    form label.sbs{
+        padding: .4rem 0; 
+    }
 
 }
