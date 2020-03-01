@@ -33,5 +33,8 @@
     form label.top input, form label.top select, form input.storm{
         max-width:20rem;
     }
-    
+    form input.submitBtn{
+        max-width: 20rem;
+    }
+
 }

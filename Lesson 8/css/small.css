@@ -122,7 +122,13 @@ form input.submitBtn {
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
-
+    width:96%;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
 }
 
 footer {
