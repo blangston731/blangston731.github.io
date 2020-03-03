@@ -44,9 +44,10 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>User Information</legend>
-                <label class="top">First & Last Name:*<input type="text" name="name" required minlength="5"
-                        pattern="[A-Za-z]"></label>
-                <label class="top">Phone Number:*<input type="tel" name="phone" required placeholder="2345556789"></label>
+                <label class="top">First & Last Name:*<input type="text" name="name" required
+                        pattern="[A-Za-z]{5, }"></label>
+                <label class="top">Phone Number:*<input type="tel" name="phone" required
+                        placeholder="2345556789"></label>
                 <label class="top">Email:<input type="email" name="email" placeholder="user123@gmail.com"></label>
                 <label class="top">Zip Code:*<input type="number" name="number" required></label>
             </fieldset>
@@ -68,6 +69,7 @@
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingValue">1</span>
                 </label>
+
                 <datalist id="tickmarks">
                     <option value="1">
                     <option value="2">
