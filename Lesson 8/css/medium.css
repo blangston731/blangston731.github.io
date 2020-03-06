@@ -30,6 +30,9 @@
 
         padding: .6rem 1rem;
     }
+    form fieldset{
+        max-width: 50rem;
+    }
     form label.top input, form label.top select, form input.storm{
         max-width:20rem;
     }

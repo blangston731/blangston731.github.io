@@ -98,8 +98,7 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label.top,
-form div {
+form label.top, {
     display: block;
     padding-top: 1rem;
     font-size: 1rem;
@@ -107,7 +106,7 @@ form div {
 
 form label.top input,
 form label.top select,
-form input.storm {
+form input.storm{
     display: block;
     font-size: 1rem;
     border: solid 1px;
