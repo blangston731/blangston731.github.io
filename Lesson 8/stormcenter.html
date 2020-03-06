@@ -17,13 +17,10 @@
 </head>
 
 <body>
-    <div class="displayMsg">
-        <span id="msg"></span>
-    </div>
     <header>
         <img src="images/Weathersite-logo.png" alt="Logo for WindyWays.info with white text" />
         <section class="title">
-            <h1>Windy Ways</h1>
+            <h2>Windy Ways</h2>
             <div>Local weather has never been closer!</div>
         </section>
 
@@ -64,7 +61,7 @@
                     <option value="Tornado">
                 </datalist>
                 <label class="sbs" for="severity">
-                    <div>Storm Severity:</div>
+                    Storm Severity:
                     <input type="range" id="severity" value="1" min="1" max="10" step="1" list="tickmarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingValue">1</span>
