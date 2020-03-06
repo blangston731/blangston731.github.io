@@ -119,6 +119,9 @@ form label.sbs {
     display: block;
     padding: .75rem 0;
 }
+form input[type="radio"]{
+    margin-right: 20px;
+}
 
 form input.submitBtn {
     border: none;
