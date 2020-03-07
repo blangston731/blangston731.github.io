@@ -60,11 +60,10 @@
                     <option value="Thunder Storm">
                     <option value="Tornado">
                 </datalist>
-                <label class="sbs" for="severity">
-                    Storm Severity:
+                <label class="top" for="severity">
+                    Storm Severity: &nbsp;&nbsp;&nbsp; <span id="ratingValue">1</span>
                     <input type="range" id="severity" value="1" min="1" max="10" step="1" list="tickmarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingValue">1</span>
                 </label>
 
                 <datalist id="tickmarks">
