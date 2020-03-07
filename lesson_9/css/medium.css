@@ -38,5 +38,15 @@
     .container {
         max-width: 900px;  
     }
+
+    .cards section {
+        display:flex;
+        flex-direction: row;
+    }
+    
+    
+    .cards section:nth-child(even){
+        flex-direction: row-reverse;
+    }
   
 }

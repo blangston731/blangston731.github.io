@@ -83,7 +83,7 @@ main h2 {
 
 .intro {
     background-color: #f0f3f5;
-    margin: 10px;
+    margin: .5rem auto;
     padding: 7px;
 }
 
@@ -102,15 +102,16 @@ main h2 {
 
 .cards section {
     margin: .5rem auto;
+    padding: .5rem;
     background-color: #f0f3f5;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 
 
-.cards section:nth-child(odd){
-    flex-direction: row-reverse;
+.cards section:nth-child(even){
+    flex-direction: column-reverse;
 }
 
 .map {
