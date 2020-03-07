@@ -34,11 +34,12 @@ fetch(requestURL)
             card.appendChild(h2);
             card.appendChild(birth);
             card.appendChild(birthplace);
+            card.appendChild(death);
             card.appendChild(order);
             card.appendChild(service);
             card.appendChild(children);
             card.appendChild(img);
-            card.appendChild(death);
+            
 
             document.querySelector('div.cards').appendChild(card);
 
