@@ -8,6 +8,9 @@
     <meta name="description" content="Windy Ways Home page">
     <link rel="shortcut icon" href="favicon.ico">
 
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter%7CDM+Serif+Text&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -21,7 +24,7 @@
         <span id="msg"></span>
     </div>
     <header>
-        <img src="images/Weathersite-logo.png" alt="Logo for WindyWays.info with white text" />
+        <img src="images/weathersite-logo.png" alt="Logo for WindyWays.info with white text" />
         <section class="title">
             <h1>Windy Ways</h1>
             <div>Local weather has never been closer!</div>
@@ -42,19 +45,15 @@
     <main>
         <h1>Preston Idaho</h1>
         <div class="heroContainer">
-            <picture>
-                <source srcset="images/landscape-md.jpg" media="(min-width:520px) and (max-width: 999px)">
-                <source srcset="images/landscape-lg.jpg" media="(min-width: 1000px)">
-                <img class="heroImg" src="images/landscape-sm.jpg" alt="Sunny Country Landscape" />
-            </picture>
+            <img class="heroImg" src="images/town.jpg" alt="Town Across The Plains" />
             <section class="weatherContain">
                 <h2>Weather Summary</h2>
                 <hr>
                 <p>Currently: Sunny</p>
-                <p>High: <span id="temp">50</span> &deg;F</p>
-                <p>Wind Chill: <span id="chill"></span>&deg;F</p>
+                <p>High: 76 &deg;F</p>
+                <p>Wind Chill: &deg;F</p>
                 <p>Humidity: 69%</p>
-                <p>Wind Speed: <span id="speed">5 </span>mph</p>
+                <p>Wind Speed: 5 mph</p>
             </section>
         </div>
         <section class="forecast">
@@ -118,20 +117,10 @@
     </main>
     <footer> &copy;Windy Ways | Attributions | Breanne Langston
         <br>
-        <span id="today"></span>
+        <script src="js/currentDate.js"></script>
     </footer>
     <script src="js/toggleMenu.js"></script>
     <script src="js/message.js"></script>
-    <script src="js/windChill.js"></script>
-    <script src="js/currentDate.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Architects Daughter', 'DM Serif Text']
-            }
-        });
-    </script>
 
 </body>
