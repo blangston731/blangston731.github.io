@@ -16,17 +16,18 @@ fetch(requestURL)
 
             let img = document.createElement('img');
 
-            h3.textContent = `${towninfo.name}`;
-            h4.textContent = `${towninfo.motto}`;
-            years.textContent = `Year Founded: ${towninfo.yearFounded}`;
-            population.textContent = `Current Population: ${towninfo.currentPopulation}`;
-            rain.textContent = `Average Rainfall: ${towninfo.averageRainfall}`;
-
-
-            img.setAttribute('src', "images/" + towninfo.photo);
-            img.setAttribute('alt', towninfo.name);
-
             if (towninfo.name == "Fish Haven" || towninfo.name == "Preston" || towninfo.name == "Soda Springs") {
+                h3.textContent = `${towninfo.name}`;
+                h4.textContent = `${towninfo.motto}`;
+                years.textContent = `Year Founded: ${towninfo.yearFounded}`;
+                population.textContent = `Current Population: ${towninfo.currentPopulation}`;
+                rain.textContent = `Average Rainfall: ${towninfo.averageRainfall}`;
+
+
+                img.setAttribute('src', "images/" + towninfo.photo);
+                img.setAttribute('alt', towninfo.name);
+
+
                 card.appendChild(h3);
                 card.appendChild(h4);
                 card.appendChild(years);
