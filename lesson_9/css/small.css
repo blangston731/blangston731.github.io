@@ -98,11 +98,12 @@ main div:nth-child(3){
     flex-wrap: wrap;
 }
 
-.card section{
+.card{
     display:flex;
     flex-direction: row;
     padding: 10px;
 }
+
 
 .card img{
     width:100%;
