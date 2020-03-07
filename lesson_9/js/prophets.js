@@ -9,12 +9,12 @@ fetch(requestURL)
         prophets.forEach(prophet => {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
-            let birth = document.createElement('div');
-            let birthplace = document.createElement('div');
-            let order = document.createElement('div');
-            let service = document.createElement('div');
-            let children = document.createElement('div');
-            let death = document.createElement('div');
+            let birth = document.createElement('p');
+            let birthplace = document.createElement('p');
+            let order = document.createElement('p');
+            let service = document.createElement('p');
+            let children = document.createElement('p');
+            let death = document.createElement('p');
 
             let img = document.createElement('img');
 

@@ -35,7 +35,8 @@
         max-width: 900px;
     }
 
-    .cards{
+    main div:nth-child(3){
         max-width: 900px;
+        
     }
 }

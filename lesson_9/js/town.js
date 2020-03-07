@@ -10,9 +10,9 @@ fetch(requestURL)
             let card = document.createElement('section');
             let h3 = document.createElement('h3');
             let h4 = document.createElement('h4');
-            let years = document.createElement('div');
-            let population = document.createElement('div');
-            let rain = document.createElement('div');
+            let years = document.createElement('p');
+            let population = document.createElement('p');
+            let rain = document.createElement('p');
 
             let img = document.createElement('img');
 

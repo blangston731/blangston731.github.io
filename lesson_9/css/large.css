@@ -16,7 +16,7 @@
         max-width: 1200px;
     }
 
-    .cards{
+    main div:nth-child(3){
         max-width: 1000px;
     }
 

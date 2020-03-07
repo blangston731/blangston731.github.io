@@ -92,26 +92,21 @@ main h2 {
     font-size: 1.25rem;
 }
 
-div:nth-child(2) {
+main div:nth-child(3){
+    max-width: 400px;
     display:flex;
     flex-wrap: wrap;
 }
 
-div.cards{
+.card section{
     display:flex;
-    flex-wrap: row;
-} 
-.card section img{
-    width: 100%;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.card img{
+    width:100%;
     height: auto;
-}
-
-div.cards:nth-child(2){
-    flex-direction: row-reverse;
-}
-
-.cards{
-    max-width: 300px;
 }
 
 .map {
