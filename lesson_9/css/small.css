@@ -82,12 +82,18 @@ main h2 {
 }
 
 .intro {
-    background-color: #f0f3f5;
+    background-color: #0b7a75;
+    color: #f0f3f5;
     margin: .5rem auto;
     padding: 7px;
 }
 
-.intro h3,
+.intro h3, .intro a{
+    color: #f0f3f5;
+    text-decoration: underline;
+    font-size: 1.25rem;
+}
+
 .cards h3 {
     color: #56351e;
     font-size: 1.25rem;
