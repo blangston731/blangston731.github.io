@@ -60,8 +60,8 @@
                     <option value="Thunder Storm">
                     <option value="Tornado">
                 </datalist>
-                <label class="top" for="severity"></label>
-                Storm Severity: &nbsp;&nbsp;&nbsp; <span id="ratingValue">1</span>
+                <label class="top" for="severity">
+                Storm Severity: &nbsp;&nbsp;&nbsp; <span id="ratingValue">1</span></label>
                 <input type="range" id="severity" value="1" min="1" max="10" step="1" list="tickmarks"
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 
@@ -96,7 +96,7 @@
                 <legend>Additional Information or Comments</legend>
                 <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
             </fieldset>
-            <input class="submitBtn" type="submit" value="Record Storm">
+            <label><input class="submitBtn" type="submit" value="Record Storm"></label>
         </form>
 
     </main>
