@@ -6,7 +6,10 @@ body {
     align-content: center;
 }
 
-h1,
+h1{
+    font-family: 'Architects Daughter', cursive;
+    color: #f0f3f5
+}
 h2 {
     font-family: 'Architects Daughter', cursive;
     color: #56351e;
