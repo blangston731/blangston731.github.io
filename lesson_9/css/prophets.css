@@ -3,6 +3,7 @@ main,
 footer {
     max-width: 1200px;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cards{
@@ -16,6 +17,10 @@ footer {
     background-color: #fff7ea;
     border: 3px double #18b5a5;
     text-align: center;
+}
+
+.cards section div{
+    font-style: italic;
 }
 
 .cards section img{
