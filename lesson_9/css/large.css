@@ -11,4 +11,9 @@
         height: 200px;
         width: auto;
     }
+
+    main {
+        max-width: 1200px;
+    }
+
 }

@@ -30,4 +30,8 @@
 
         padding: .6rem 1rem;
     }
+
+    main{
+        max-width: 900px;
+    }
 }
