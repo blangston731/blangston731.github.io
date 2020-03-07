@@ -28,7 +28,7 @@ fetch(requestURL)
             children.textContent = `Number of Children: ${prophet.numofchildren}`;
             death.textContent = `Date of Death: ${prophet.death}`;
 
-            img.setAttribute('src', prophets.imageurl);
+            img.setAttribute('src', prophet.imageurl);
             img.setAttribute('alt', fullName);
 
             card.appendChild(h2);
