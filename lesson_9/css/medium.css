@@ -34,4 +34,8 @@
     main{
         max-width: 900px;
     }
+
+    .cards{
+        max-width: 900px;
+    }
 }

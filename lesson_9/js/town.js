@@ -23,26 +23,10 @@ fetch(requestURL)
             rain.textContent = `Average Rainfall: ${towninfo.averageRainfall}`;
 
 
-            img.setAttribute('src', towninfo.photo);
+            img.setAttribute('src', "images/" + towninfo.photo);
             img.setAttribute('alt', towninfo.name);
 
-            if (towninfo.name == "Fish Haven") {
-                card.appendChild(h3);
-                card.appendChild(h4);
-                card.appendChild(years);
-                card.appendChild(population);
-                card.appendChild(rain);
-                card.appendChild(img);
-            }
-            else if (towninfo.name == "Preston") {
-                card.appendChild(h3);
-                card.appendChild(h4);
-                card.appendChild(years);
-                card.appendChild(population);
-                card.appendChild(rain);
-                card.appendChild(img);
-            }
-            else if (towninfo.name == "Soda Springs") {
+            if (towninfo.name == "Fish Haven" || towninfo.name == "Preston" || towninfo.name == "Soda Springs") {
                 card.appendChild(h3);
                 card.appendChild(h4);
                 card.appendChild(years);
