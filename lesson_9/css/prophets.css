@@ -1,0 +1,40 @@
+header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.cards section{
+    margin:.5rem;
+    padding: .5rem;
+    background-color: #fff7ea;
+    border: 3px double #18b5a5;
+    text-align: center;
+}
+
+.cards section img{
+    width:100%;
+    height: auto;
+}
+
+h1 {
+    margin: 5px;
+    border: 3px solid #18b5a5;
+    padding: 15px;
+    background-color: #fff7ea;
+    text-align: center;
+}
+
+main section {
+    margin-left: 25px;
+}
+
+footer {
+    border-top: 1px dotted blue;
+}
