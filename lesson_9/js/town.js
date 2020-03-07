@@ -11,20 +11,45 @@ fetch(requestURL)
             let h3 = document.createElement('h3');
             let h4 = document.createElement('h4');
             let years = document.createElement('div');
+            let population = document.createElement('div');
+            let rain = document.createElement('div');
 
             let img = document.createElement('img');
 
             h3.textContent = `${towninfo.name}`;
             h4.textContent = `${towninfo.motto}`;
             years.textContent = `Year Founded: ${towninfo.yearFounded}`;
+            population.textContent = `Current Population: ${towninfo.currentPopulation}`;
+            rain.textContent = `Average Rainfall: ${towninfo.averageRainfall}`;
+
 
             img.setAttribute('src', towninfo.photo);
             img.setAttribute('alt', towninfo.name);
 
-            card.appendChild(h3);
-            card.appendChild(h4);
-            card.appendChild(years);
-            card.appendChild(img);
+            if (towninfo.name == "Fish Haven") {
+                card.appendChild(h3);
+                card.appendChild(h4);
+                card.appendChild(years);
+                card.appendChild(population);
+                card.appendChild(rain);
+                card.appendChild(img);
+            }
+            else if (towninfo.name == "Preston") {
+                card.appendChild(h3);
+                card.appendChild(h4);
+                card.appendChild(years);
+                card.appendChild(population);
+                card.appendChild(rain);
+                card.appendChild(img);
+            }
+            else if (towninfo.name == "Soda Springs") {
+                card.appendChild(h3);
+                card.appendChild(h4);
+                card.appendChild(years);
+                card.appendChild(population);
+                card.appendChild(rain);
+                card.appendChild(img);
+            }
 
             document.querySelector('div.cards').appendChild(card);
         });
