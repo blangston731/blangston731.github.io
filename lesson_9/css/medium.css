@@ -35,8 +35,8 @@
         max-width: 900px;
     }
 
-    main div:nth-child(3){
-        max-width: 900px;
-        
+    .container {
+        max-width: 900px;  
     }
+  
 }

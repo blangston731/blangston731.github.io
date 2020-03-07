@@ -16,8 +16,8 @@
         max-width: 1200px;
     }
 
-    main div:nth-child(3){
-        max-width: 1000px;
+    .container {
+        max-width: 1000px;    
     }
 
 }

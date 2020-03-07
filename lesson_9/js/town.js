@@ -7,16 +7,17 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
         towns.forEach(towninfo => {
-            let card = document.createElement('section');
-            let h3 = document.createElement('h3');
-            let h4 = document.createElement('h4');
-            let years = document.createElement('p');
-            let population = document.createElement('p');
-            let rain = document.createElement('p');
-
-            let img = document.createElement('img');
-
             if (towninfo.name == "Fish Haven" || towninfo.name == "Preston" || towninfo.name == "Soda Springs") {
+                let card = document.createElement('section');
+                let h3 = document.createElement('h3');
+                let h4 = document.createElement('h4');
+                let years = document.createElement('p');
+                let population = document.createElement('p');
+                let rain = document.createElement('p');
+
+                let img = document.createElement('img');
+
+
                 h3.textContent = `${towninfo.name}`;
                 h4.textContent = `${towninfo.motto}`;
                 years.textContent = `Year Founded: ${towninfo.yearFounded}`;
@@ -34,8 +35,10 @@ fetch(requestURL)
                 card.appendChild(population);
                 card.appendChild(rain);
                 card.appendChild(img);
+
+                document.querySelector('div.cards').appendChild(card);
             }
 
-            document.querySelector('div.cards').appendChild(card);
+
         });
     });
