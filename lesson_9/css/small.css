@@ -72,7 +72,7 @@ nav ul.hide {
 
 main {
     max-width: 400px;
-    padding: 5rem 10rem 5rem 10rem;
+    padding: .5rem auto;
 }
 
 main h2 {
