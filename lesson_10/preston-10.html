@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Windy Ways</title>
+    <meta name="description" content="Windy Ways Home page">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+</head>
+
+<body>
+    <div class="displayMsg">
+        <span id="msg"></span>
+    </div>
+    <header>
+        <img src="images/weathersite-logo.png" alt="Logo for WindyWays.info with white text" />
+        <section class="title">
+            <h1>Windy Ways</h1>
+            <div>Local weather has never been closer!</div>
+        </section>
+
+    </header>
+    <nav class="layout">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Preston Idaho</h1>
+        <div class="heroContainer">
+            <picture>
+                <div class="heroContainer">
+                    <img class="heroImg" src="images/town.jpg" alt="Town Across The Plains" />
+            </picture>
+            <section class="weatherContain">
+                <h2>Weather Summary</h2>
+                <hr>
+                <p>Currently: Sunny</p>
+                <p>High: <span id="temp">50</span> &deg;F</p>
+                <p>Wind Chill: <span id="chill"></span>&deg;F</p>
+                <p>Humidity: 69%</p>
+                <p>Wind Speed: <span id="speed">5 </span>mph</p>
+            </section>
+        </div>
+        <section class="forecast">
+            <h2>5 day Forecast</h2>
+            <div class="flex">
+                <div class="column">
+                    <span class="day">Sun</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+                <div class="column">
+                    <span class="day">Mon</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+                <div class="column">
+                    <span class="day">Tues</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+                <div class="column">
+                    <span class="day">Wed</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+                <div class="column">
+                    <span class="day">Thurs</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+            </div>
+        </section>
+        <section class="containArticle">
+            <img class="articleImg" src="images/gathering.jpg" alt="Group Gathered for Activity" />
+            <h2>Founders Day Fresco</h2>
+            <h4>By Janica Juarez</h4>
+            <p>I was recently reflecting upon the founders day event held at Foundation Park each year. I have been
+                taking the fesitval for granted and have not been properly engaging in perhaps the most posular
+                community event of the year. In response, I contacted Ms. Sharon via email and expressed my desire to
+                serve on the event committee. Well, you guessed it, the phone rings almost immediately and she promplty
+                asks me to be the event committee chair. Literally, good grief! My appreciation for the years of
+                dedication, generous service of voulnteers and sponsors has excalted beyond what I thought I could feel
+                for such a thing and ... <a href="">continue to full article</a></p>
+        </section>
+        <section class="contactInfo">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9958.45544459397!2d-111.88295964709111!3d42.09319414380925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1581209136969!5m2!1sen!2sus"
+                width="350" height="250" frameborder="0" style="float:left" allowfullscreen=""></iframe>
+            <h2>Windy Ways</h2>
+            <p>&#128205; 30 N 1st St.</p>
+            <p>Preston, ID 83263</p>
+            <br>
+            <p>&#9742; 999-999-9999</p>
+            <p>&#127760;<a href="https://blangston731.github.io/Lesson%205/preston-5.html">windyways.com</a></p>
+            <img class="social" src="images/facebook.png" alt="Facebook icon" />
+            <img class="social" src="images/pinterest.png" alt="Pinterest icon" />
+            <img class="social" src="images/twitter.png" alt="Tweiter icon" />
+        </section>
+
+
+    </main>
+    <footer> &copy;Windy Ways | Attributions | Breanne Langston
+        <br>
+        <span id="today"></span>
+    </footer>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/windChill.js"></script>
+    <script src="js/currentDate.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Architects Daughter', 'DM Serif Text']
+            }
+        });
+    </script>
+
+</body>
