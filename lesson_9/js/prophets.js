@@ -39,7 +39,7 @@ fetch(requestURL)
             card.appendChild(service);
             card.appendChild(children);
             card.appendChild(img);
-            
+
 
             document.querySelector('div.cards').appendChild(card);
 
