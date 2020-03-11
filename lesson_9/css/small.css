@@ -88,7 +88,8 @@ main h2 {
     padding: 7px;
 }
 
-.intro h3, .intro a{
+.intro h3,
+.intro a {
     color: #f0f3f5;
     text-decoration: underline;
     font-size: 1.25rem;
@@ -110,13 +111,13 @@ main h2 {
     margin: .5rem auto;
     padding: .5rem;
     background-color: #f0f3f5;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
 
 
-.cards section:nth-child(even){
+.cards section:nth-child(even) {
     flex-direction: column-reverse;
 }
 

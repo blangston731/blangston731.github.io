@@ -31,24 +31,24 @@
         padding: .6rem 1rem;
     }
 
-    main{
+    main {
         max-width: 900px;
         padding: 5rem 10rem 5rem 10rem;
     }
 
     .container {
-        max-width: 900px;  
+        max-width: 900px;
     }
 
     .cards section {
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
-    
-    
-    .cards section:nth-child(even){
+
+    .cards section:nth-child(even) {
         flex-direction: row-reverse;
     }
+
     .idmap {
         width: 75%;
     }
