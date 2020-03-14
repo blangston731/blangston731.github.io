@@ -18,14 +18,93 @@
 
 <body>
     <header>
+        <img src="images/weathersite-logo.png" alt="Logo for WindyWays.info with white text" />
+        <section class="title">
+            <h1>Windy Ways</h1>
+            <div>Local weather has never been closer!</div>
+        </section>
     </header>
-    <nav>
-        
+    <nav class="layout">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="lesson_9/index.html">Home</a></li>
+            <li class="active"><a href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="lesson_8/stormcenter.html">Storm Center</a></li>
+            <li><a href="lesson_7/gallery-7.html">Gallery</a></li>
+        </ul>
     </nav>
     <main>
- 
-
-
+        <h2>Preston Idaho</h2>
+        <div class="heroContainer">
+            <img class="heroImg" src="images/town.jpg" alt="Town Across The Plains" />
+            <section class="weatherContain">
+                <h3>Weather Summary</h3>
+                <hr>
+                <p>Currently: Sunny</p>
+                <p>High: 76 &deg;F</p>
+                <p>Wind Chill: &deg;F</p>
+                <p>Humidity: 69%</p>
+                <p>Wind Speed: 5 mph</p>
+            </section>
+        </div>
+        <section class="forecast">
+            <h3>5 day Forecast</h3>
+            <div class="flex">
+                <div class="column">
+                    <span class="day">Sun</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+                <div class="column">
+                    <span class="day">Mon</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+                <div class="column">
+                    <span class="day">Tues</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+                <div class="column">
+                    <span class="day">Wed</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+                <div class="column">
+                    <span class="day">Thurs</span>
+                    <img src="images/sun.png" alt="Sun">
+                    <span class="temp">87&deg;F</span>
+                </div>
+            </div>
+        </section>
+        <section class="containArticle">
+            <img class="articleImg" src="images/gathering.jpg" alt="Group Gathered for Activity" />
+            <h3>Founders Day Fresco</h3>
+            <h4>By Janica Juarez</h4>
+            <p>I was recently reflecting upon the founders day event held at Foundation Park each year. I have been
+                taking the fesitval for granted and have not been properly engaging in perhaps the most posular
+                community event of the year. In response, I contacted Ms. Sharon via email and expressed my desire to
+                serve on the event committee. Well, you guessed it, the phone rings almost immediately and she promplty
+                asks me to be the event committee chair. Literally, good grief! My appreciation for the years of
+                dedication, generous service of voulnteers and sponsors has excalted beyond what I thought I could feel
+                for such a thing and ... <a href="">continue to full article</a></p>
+        </section>
+        <section class="contactInfo">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9958.45544459397!2d-111.88295964709111!3d42.09319414380925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1581209136969!5m2!1sen!2sus"
+                width="350" height="250" frameborder="0" style="float:left" allowfullscreen=""></iframe>
+            <h3>Windy Ways</h3>
+            <p>&#128205; 30 N 1st St.</p>
+            <p>Preston, ID 83263</p>
+            <br>
+            <p>&#9742; 999-999-9999</p>
+            <p>&#127760;<a href="https://blangston731.github.io/Lesson%205/preston-5.html">windyways.com</a></p>
+            <img class="social" src="images/facebook.png" alt="Facebook icon" />
+            <img class="social" src="images/pinterest.png" alt="Pinterest icon" />
+            <img class="social" src="images/twitter.png" alt="Tweiter icon" />
+        </section>
     </main>
     <footer> &copy;Windy Ways | Attributions | Breanne Langston
         <br>
