@@ -45,40 +45,40 @@
             <section class="weatherContain">
                 <h2>Weather Summary</h2>
                 <hr>
-                <p>Currently: Sunny</p>
-                <p>High: <span id="temp">50</span> &deg;F</p>
-                <p>Wind Chill: <span id="chill"></span>&deg;F</p>
-                <p>Humidity: 69%</p>
-                <p>Wind Speed: <span id="speed">5 </span>mph</p>
+                <p>Currently: <span id="current"></span></p>
+                <p>High: <span id="temp1"></span> &deg;F</p>
+                <p>Wind Chill: <span id="chill"></span> &deg;F</p>
+                <p>Humidity: <span id="humid"></span>%</p>
+                <p>Wind Speed: <span id="speed"></span>mph</p>
             </section>
         </div>
         <section class="forecast">
             <h3>5 day Forecast</h3>
             <div class="flex">
                 <div class="column">
-                    <span class="day">Sun</span>
-                    <img src="images/sun.png" alt="Sun">
-                    <span class="temp">87&deg;F</span>
+                    <span class="day" id="day1"></span>
+                    <img src="" alt="" id="icon1">
+                    <span class="temp" id="temp1"></span>&deg;F
                 </div>
                 <div class="column">
-                    <span class="day">Mon</span>
-                    <img src="images/sun.png" alt="Sun">
-                    <span class="temp">87&deg;F</span>
+                    <span class="day" id="day2"></span>
+                    <img src="" alt="" id="icon2">
+                    <span class="temp" id="temp2"></span>&deg;F
                 </div>
                 <div class="column">
-                    <span class="day">Tues</span>
-                    <img src="images/sun.png" alt="Sun">
-                    <span class="temp">87&deg;F</span>
+                    <span class="day" id="day3"></span>
+                    <img src="" alt="" id="icon3">
+                    <span class="temp" id="temp3"></span>&deg;F
                 </div>
                 <div class="column">
-                    <span class="day">Wed</span>
-                    <img src="images/sun.png" alt="Sun">
-                    <span class="temp">87&deg;F</span>
+                    <span class="day" id="day4"></span>
+                    <img src="" alt="" id="icon4">
+                    <span class="temp" id="temp4"></span>&deg;F
                 </div>
                 <div class="column">
-                    <span class="day">Thurs</span>
-                    <img src="images/sun.png" alt="Sun">
-                    <span class="temp">87&deg;F</span>
+                    <span class="day" id="day5"></span>
+                    <img src="" alt="" id="icon5">
+                    <span class="temp" id="temp5"></span>&deg;F
                 </div>
             </div>
         </section>
@@ -116,8 +116,10 @@
 
     <script src="js/toggleMenu.js"></script>
     <script src="js/message.js"></script>
-    <script src="js/windChill.js"></script>
+    <script src="js/days.js"></script>
     <script src="js/currentDate.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/windChill.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

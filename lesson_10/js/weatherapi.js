@@ -5,7 +5,6 @@ fetch(apiURL)
         return response.json();
     })
     .then(function (jsObject) {
-        console.log(jsObject);
 
         document.getElementById('current-temp').textContent = jsObject.main.temp;
         
