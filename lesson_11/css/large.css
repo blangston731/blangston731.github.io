@@ -12,6 +12,19 @@
         width: auto;
     }
 
+    /*--------------------------- Index CSS ---------------------------------*/
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-self: center;
+    }
+
+    .cards img{
+        float: none;
+    }
+    /*-----------------------------------------------------------------------*/
+
+    /*----------------- Preston, Fish Haven, Soda Springs CSS ---------------*/
     .heroImg {
         width: 100%;
         margin-left: 2%;
@@ -27,4 +40,19 @@
     .articleImg {
         margin-top: 2%;
     }
+    /*------------------------------------------------------------------------*/
+
+    /*------------------------- Gallery -------------------------------------*/
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery h1 {
+        grid-column: 1 / span 3;
+    }
+
+    figure:hover {
+        box-shadow: 5px 5px 8px #89806D;
+    }
+    /*-----------------------------------------------------------------------*/
 }
