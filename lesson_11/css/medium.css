@@ -35,7 +35,7 @@
         width: 75%;
     }
     /*-----------------------------------------------------------------*/
-    
+
     /*----------------Preston, Fish Haven, Soda Springs CSS-----------*/
     main {
         max-width: 97%;
@@ -118,4 +118,19 @@
         grid-column: 1 / span 2;
     }
     /*---------------------------------------------------------------------*/
+
+    /*------------------------------- Storm Center -------------------------*/
+    form fieldset{
+        max-width: 50rem;
+    }
+    form label.top input, form label.top select, form input.storm{
+        max-width:20rem;
+    }
+    form input.submitBtn{
+        max-width: 20rem;
+    }
+    form label.sbs{
+        padding: .4rem 0; 
+    }
+    /*-----------------------------------------------------------------------*/
 }
