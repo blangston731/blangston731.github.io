@@ -1,0 +1,98 @@
+@media only screen and (min-width: 32.5em) {
+    header img {
+        height: 200px;
+        width: auto;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+   nav ul li {
+       display: block;
+       flex: 1 1 100%
+   }
+
+   nav ul li a {
+    border: none;
+    padding: .6rem 1rem;
+}
+
+main{
+    max-width: 97%;
+}
+
+.heroImg {
+    width: 1150px;
+    height: auto;
+}
+
+.weatherContain {
+    height: 15em;
+    font-size: 90%;
+    line-height: 1;
+}
+
+.forecast {
+    display: block;
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex: 1 1 100%;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    background-color: #f0f3f5;
+    font-size: 15px;
+    text-align: center;
+}
+
+.flex div:last-child {
+    border-right: 1px solid #333;
+}
+
+.day {
+    display: block;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid #333;
+    background-color: #0b7a75;
+    color: #f0f3f5;
+}
+
+.flex div img {
+    width: 100px;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.temp {
+    display: block;
+    padding: 0 5px 5px;
+}
+
+.articleImg {
+    max-width: 100%;
+    float: right;
+    margin: 10% 3px 5px 3px;
+}
+
+iframe {
+    display: flex;
+}
+}

@@ -1,0 +1,172 @@
+body {
+    font-size: 18px;
+    line-height: 1.5rem;
+    background-color: #d7c9aa;
+    font-family: 'DM Serif Text', serif;
+}
+
+.displayMsg {
+    background-color: #f0f3f5;
+    padding: 5px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Architects Daughter', cursive;
+}
+
+header {
+    background-color: #19535f;
+    font-size: 1em;
+    color: #f0f3f5;
+    padding-bottom: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    height: 115px;
+    width: auto;
+}
+
+nav {
+    background-color: #19535f;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #f0f3f5;
+    padding: 2%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #f0f3f5;
+}
+
+nav ul li.active a {
+    background-color: #0b7a75;
+}
+
+nav ul li a:hover {
+    background-color: rgba(11, 122, 117, 0.6);
+}
+
+nav ul.hide {
+    display: none
+}
+
+main {
+    text-align: center;
+    max-width: 400px;
+}
+
+main h1,
+h2,
+h3 {
+    color: #56351e;
+}
+
+/*-----------------------Preston, Fish Haven, Soda Springs CSS-------------*/
+.heroContainer {
+    position: relative;
+}
+
+.heroImg {
+    width: 400px;
+    padding-bottom: 35px;
+}
+
+.weatherContain {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    height: 10.5rem;
+    font-size: 85%;
+    line-height: .5;
+    border: 1px solid #000;
+    background-color: #f0f3f5;
+    padding: 1rem;
+    opacity: .8;
+}
+
+.forecast {
+    display: none;
+}
+
+.articleImg {
+    width: 290px;
+    padding-top: 8px;
+}
+
+.containArticle {
+    margin: 0 5% 2% 5%;
+    background-color: #f0f3f5;
+    padding: 1px 5px 1px 5px;
+}
+
+iframe {
+    display: none;
+}
+
+.contactInfo {
+    background-color: #0b7a75;
+    margin: 0 2% 0 2%;
+    line-height: 1;
+    padding: 10px;
+    color: #f0f3f5;
+}
+
+.contactInfo h3,
+.contactInfo a {
+    color: #f0f3f5;
+}
+/*----------------------------------------------------*/
+
+/*-----------Gallery CSS----------------*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+figure {
+    background-color: #f0f3f5;
+    border: 3px solid #f0f3f5;
+}
+
+/*-----------------------------------------*/
+
+footer {
+    background-color: #19535f;
+    font-size: 1.75em;
+    color: #f0f3f5;
+    margin: 2%;
+    padding: 5px;
+    font-size: 1em;
+    display: block;
+    text-align: center;
+}
