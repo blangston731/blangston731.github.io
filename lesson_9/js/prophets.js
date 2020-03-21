@@ -24,7 +24,7 @@ fetch(requestURL)
             birth.textContent = `Date of Birth: ${prophet.birthdate}`;
             birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
             order.textContent = `Prophet number: ${prophet.order}`;
-            service.textContent = `Years served as Propet: ${prophet.length}`;
+            service.textContent = `Years served as Prophet: ${prophet.length}`;
             children.textContent = `Number of Children: ${prophet.numofchildren}`;
             death.textContent = `Date of Death: ${prophet.death}`;
 
