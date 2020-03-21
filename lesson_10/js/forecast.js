@@ -6,9 +6,14 @@ fetch(apiURL)
     })
     .then(function (jsObject) {
         const fiveDays = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-        console.log(fiveDays);
         for (let i = 0; i < fiveDays.length; i++) {
+            var d = new Date(fiveDays[i].dt_txt);
+            const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+            document.getElementById(`day${i+1}`).textContent = weekday[d.getDay()];
+
             document.getElementById(`temp${i+1}`).textContent = fiveDays[i].main.temp;
+
             const imagesrc = 'https://openweathermap.org/img/w/' + fiveDays[i].weather[0].icon + '.png';
             const desc = fiveDays[i].weather[0].description;
             document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
@@ -21,4 +26,3 @@ fetch(apiURL)
 
         document.getElementById('humid').textContent = fiveDays[0].main.humidity;
     });
-
