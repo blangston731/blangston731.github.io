@@ -5,15 +5,10 @@ fetch(apiURL)
         return response.json();
     })
     .then(function (jsObject) {
-
-
         const fiveDays = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-        console.log(fiveDays);
+        
         for (let i = 0; i < fiveDays.length; i++) {
             document.getElementById(`temp${i+1}`).textContent = fiveDays[i].main.temp;
-        }
-
-        for (let i = 0; i < fiveDays.length; i++) {
             const imagesrc = 'https://openweathermap.org/img/w/' + fiveDays[i].weather[0].icon + '.png';
             const desc = fiveDays[i].weather[0].description;
             document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
