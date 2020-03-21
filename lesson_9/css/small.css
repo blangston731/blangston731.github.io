@@ -95,31 +95,20 @@ main h2 {
     font-size: 1.25rem;
 }
 
+.cards{
+    background-color: #f0f3f5;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: .5rem auto;
+}
+
 .cards h3 {
     color: #56351e;
     font-size: 1.25rem;
 }
 
-.container {
-    max-width: 400px;
-    margin: .5rem auto;
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.cards section {
-    margin: .5rem auto;
-    padding: .5rem;
-    background-color: #f0f3f5;
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.cards section:nth-child(even) {
-    flex-direction: column-reverse;
-}
 
 .map {
     background-color: #0b7a75;
@@ -132,7 +121,6 @@ main h2 {
 
 .map p {
     flex-basis: 50%;
-
 }
 
 .idmap {

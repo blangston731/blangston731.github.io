@@ -16,8 +16,13 @@
         max-width: 1200px;
     }
 
-    .container {
-        max-width: 1000px;
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-self: center;
     }
 
+    .cards img{
+        float: none;
+    }
 }
