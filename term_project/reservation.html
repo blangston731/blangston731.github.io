@@ -18,6 +18,7 @@
         <img src="#" alt="Logo for Salmon River Adventures">
         <h1>Salmon River Adventures</h1>
     </header>
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -27,10 +28,76 @@
         </ul>
     </nav>
     <main>
+        <form>
+            <fieldset>
+                <legend>Reserve your spot!</legend>
+                <label>First & Last Name:*<input type="text" name="name" required pattern="[A-Za-z]{5, }"></label>
+                <label>Phone Number:*<input type="tel" name="phone" required pattern="[0-9]{10, }"
+                        placeholder="208778888"></label>
+                <label>Street Address:*<input type="text" name="address" required></label>
+                <label>City:*<input type="text" name="city" required></label>
+                <label>State:*<input list="states" name="states" required size="3"></label>
+                <datalist id="states">
+                    <option value="  ">
+                    <option value="AK">
+                    <option value="AL">
+                    <option value="AR">
+                    <option value="AZ">
+                    <option value="CA">
+                    <option value="CO">
+                    <option value="CT">
+                    <option value="DE">
+                    <option value="FL">
+                    <option value="GA">
+                    <option value="HI">
+                    <option value="IA">
+                    <option value="ID">
+                    <option value="IL">
+                    <option value="IN">
+                    <option value="KS">
+                    <option value="KY">
+                    <option value="LA">
+                    <option value="MA">
+                    <option value="MD">
+                    <option value="ME">
+                    <option value="MI">
+                    <option value="MN">
+                    <option value="MO">
+                    <option value="MS">
+                    <option value="MT">
+                    <option value="NC">
+                    <option value="ND">
+                    <option value="NE">
+                    <option value="NH">
+                    <option value="NJ">
+                    <option value="NM">
+                    <option value="NV">
+                    <option value="NY">
+                    <option value="OH">
+                    <option value="OK">
+                    <option value="OR">
+                    <option value="PA">
+                    <option value="RI">
+                    <option value="SC">
+                    <option value="SD">
+                    <option value="TN">
+                    <option value="TX">
+                    <option value="UT">
+                    <option value="VA">
+                    <option value="VT">
+                    <option value="WA">
+                    <option value="WI">
+                    <option value="WV">
+                    <option value="WY">
+                </datalist>
 
+
+            </fieldset>
+        </form>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
