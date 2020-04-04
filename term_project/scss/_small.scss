@@ -3,6 +3,7 @@ body {
     line-height: 1.5rem;
     background-color: #dbb68f;
     color: #17140e;
+    font-family: 'Pavanam', sans-serif;
 }
 
 header {
@@ -13,6 +14,7 @@ header {
     grid-template-columns: 2;
     align-items: center;
     grid-gap: 10px;
+    font-family: 'Fredericka the Great', cursive;
 
     img {
         justify-self: end;
@@ -36,6 +38,7 @@ main {
     h3,
     h4 {
         margin: 0;
+        font-family: 'Fredericka the Great', cursive;
     }
 
     nav {

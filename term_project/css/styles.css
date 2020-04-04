@@ -307,7 +307,8 @@ body {
   font-size: 18px;
   line-height: 1.5rem;
   background-color: #dbb68f;
-  color: #17140e; }
+  color: #17140e;
+  font-family: 'Pavanam', sans-serif; }
 
 header {
   background-color: #778165;
@@ -316,7 +317,8 @@ header {
   display: grid;
   grid-template-columns: 2;
   align-items: center;
-  grid-gap: 10px; }
+  grid-gap: 10px;
+  font-family: 'Fredericka the Great', cursive; }
   header img {
     justify-self: end; }
   header h1 {
@@ -333,7 +335,8 @@ main {
   main h2,
   main h3,
   main h4 {
-    margin: 0; }
+    margin: 0;
+    font-family: 'Fredericka the Great', cursive; }
   main nav {
     grid-column: 1;
     grid-row: 1;
