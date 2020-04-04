@@ -2,11 +2,12 @@ body {
     font-size: 18px;
     line-height: 1.5rem;
     background-color: #dbb68f;
+    color: #17140e;
 }
 
 header {
-    background-color: #a3b18a;
-    color: #524632;
+    background-color: #778165;
+    color: #17140e;
     padding: 10px;
     display: grid;
     grid-template-columns: 2;
@@ -25,58 +26,114 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 16% 3% 14% 13% 27% 13% 14%;
-    grid-template-rows: 14% 22% 20% 45%;
-    padding: 0px 12px 5px 12px;
+    grid-template-columns: 15% 14% 13% 27% 13% 14%;
+    grid-template-rows: 12% 24% 20% 42%;
+    padding: 5px 12px 5px 12px;
     align-items: start;
+    grid-gap: 10px;
 
-    nav {
-        color: #524632;
-        grid-column: 1;
-        grid-row: 1;
+    h2,
+    h3,
+    h4 {
+        margin: 0;
     }
 
-    #current {
+    nav {
+        grid-column: 1;
+        grid-row: 1;
+        //border: 2px solid #f9a03f;
+        padding: 3px;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li a {
+                text-decoration: none;
+                color: #17140e;
+            }
+
+            li.active a {
+                font-weight: bold;
+                padding: 1px;
+                border: 3px dashed #4C061D;
+            }
+
+            li a:hover {
+                color: #4C061D;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .current {
         grid-column: 1;
         grid-row: 2;
         line-height: 1rem;
+        background-color: #D5FFF3;
+        padding: 5px;
     }
 
-    #welcome {
-        grid-column-start: 3;
-        grid-column-end: 8;
+    .welcome {
+        grid-column-start: 2;
+        grid-column-end: 7;
         grid-row: 3;
+        text-align: center;
     }
 
-    #cInfo {
+    .cInfo {
         grid-column: 1;
         grid-row: 3;
     }
 
-    #tripOne {
-        grid-column-start: 3;
-        grid-column-end: 5;
+    .tripOne {
+        grid-column-start: 2;
+        grid-column-end: 4;
         grid-row: 4;
         font-size: 16px;
+        background-color: #D5FFF3;
+        padding: 5px;
     }
 
-    #tripTwo {
-        grid-column: 5;
+    .tripTwo {
+        grid-column: 4;
         grid-row: 4;
         font-size: 16px;
+        background-color: #D5FFF3;
+        padding: 5px;
     }
 
-    #tripThree {
-        grid-column-start: 6;
-        grid-column-end: 8;
+    .tripThree {
+        grid-column-start: 5;
+        grid-column-end: 7;
         grid-row: 4;
         font-size: 16px;
+        background-color: #D5FFF3;
+        padding: 5px;
     }
 }
 
-footer{
-    background-color: #a3b18a;
-    color: #524632;
-    text-align: center; 
-    padding: 8px;
+.welcome a,
+.tripOne a,
+.tripTwo a,
+.tripThree a, footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #17140e;
+}
+
+.welcome a:hover,
+.tripOne a:hover,
+.tripTwo a:hover,
+.tripThree a:hover, footer a:hover {
+    color: #4C061D;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #778165;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px;
 }

@@ -18,15 +18,16 @@
         <img src="images/logo.png" alt="Logo for Salmon River Adventures">
         <h1>Salmon River Adventures</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="river_guides.html">River Guides</a></li>
-            <li><a href="contact_us.html">Contact Us</a></li>
-            <li><a href="reservation.html">Book Now</a></li>
-        </ul>
-    </nav>
+
     <main>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="river_guides.html"> River Guides</a></li>
+                <li class="active"><a href="contact_us.html"> Contact Us</a></li>
+                <li><a href="reservation.html"> Book Now</a></li>
+            </ul>
+        </nav>
         <h2>We would love to hear from you if you have any questions!</h2>
         <p>&#128205; 1000 S Main St., Riggins, ID</p>
         <p>&#128222; (208)545-2298</p>
@@ -37,14 +38,16 @@
             tabindex="0"></iframe>
         <form method="get" action="#">
             <fieldset>
-                <legend><h3>What can we help with?</h3></legend>
+                <legend>
+                    <h3>What can we help with?</h3>
+                </legend>
                 <label>Name:*<input type="text" name="name" required pattern="[A-Za-z]{3, }"></label>
                 <label>Email:*<input type="email" name="email" required placeholder="user123@gmail.com"></label>
                 <label>Phone:*<input type="tel" name="phone" requred placeholder="2425558795"></label>
                 <label>Questions or Comments:<textarea id="comments" name="comments" rows="5"
                         cols="33"></textarea></label>
                 <input class="btn" type="submit" value="Submit Question">
-    </fieldset>
+            </fieldset>
 
         </form>
 
