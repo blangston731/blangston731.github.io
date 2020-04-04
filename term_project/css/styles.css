@@ -325,8 +325,9 @@ header {
 main {
   display: grid;
   grid-template-columns: 16% 3% 14% 13% 27% 13% 14%;
-  grid-template-rows: 16% 21% 20% 44%;
-  padding: 12px; }
+  grid-template-rows: 14% 22% 20% 45%;
+  padding: 0px 12px 5px 12px;
+  align-items: start; }
   main nav {
     color: #524632;
     grid-column: 1;
@@ -345,14 +346,23 @@ main {
   main #tripOne {
     grid-column-start: 3;
     grid-column-end: 5;
-    grid-row: 4; }
+    grid-row: 4;
+    font-size: 16px; }
   main #tripTwo {
     grid-column: 5;
-    grid-row: 4; }
+    grid-row: 4;
+    font-size: 16px; }
   main #tripThree {
     grid-column-start: 6;
     grid-column-end: 8;
-    grid-row: 4; }
+    grid-row: 4;
+    font-size: 16px; }
+
+footer {
+  background-color: #a3b18a;
+  color: #524632;
+  text-align: center;
+  padding: 8px; }
 
 /* end of media query */
 /* end of media query */
