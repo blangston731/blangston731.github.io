@@ -37,13 +37,15 @@
             tabindex="0"></iframe>
         <form method="get" action="#">
             <fieldset>
+                <legend><h3>What can we help with?</h3></legend>
                 <label>Name:*<input type="text" name="name" required pattern="[A-Za-z]{3, }"></label>
                 <label>Email:*<input type="email" name="email" required placeholder="user123@gmail.com"></label>
                 <label>Phone:*<input type="tel" name="phone" requred placeholder="2425558795"></label>
                 <label>Questions or Comments:<textarea id="comments" name="comments" rows="5"
                         cols="33"></textarea></label>
-            </fieldset>
-            <input class="btn" type="submit" value="question">
+                <input class="btn" type="submit" value="Submit Question">
+    </fieldset>
+
         </form>
 
 
@@ -51,7 +53,8 @@
     <footer>
         &copy;Salmon River Adventures | <a href="#">Contact Us</a> | <a href="#">Gallery</a>
         <br>
-        Last Updated: <!--JS for update-->
+        Last Updated:
+        <!--JS for update-->
     </footer>
 </body>
 
