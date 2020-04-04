@@ -11,7 +11,7 @@ fetch(requestURL)
             const allevents = towns.events;
             console.log(allevents);
             for(let i=0; i < allevents.length; i++){
-                document.getElementById(fhevents).textContent = allevents[i];
+                document.getElementById("ssevents").textContent = allevents[i];
             }
         }
     });
