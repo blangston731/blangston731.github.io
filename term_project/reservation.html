@@ -30,7 +30,9 @@
     <main>
         <form>
             <fieldset>
-                <legend>Reserve your spot!</legend>
+                <legend>
+                    <h3>Reserve your spot!</h3>
+                </legend>
                 <label>First & Last Name:*<input type="text" name="name" required pattern="[A-Za-z]{5, }"></label>
                 <label>Phone Number:*<input type="tel" name="phone" required pattern="[0-9]{10, }"
                         placeholder="208778888"></label>
@@ -90,13 +92,46 @@
                     <option value="WV">
                     <option value="WY">
                 </datalist>
-
-
             </fieldset>
+            <fieldset>
+                <legend>
+                    <h3>Trip Information</h3>
+                </legend>
+                Select your trip:
+                <label><input type="radio" name="trips" value="single">Single Day Trip</label>
+                <label><input type="radio" name="trips" value="weekend">Weekend Trip</label>
+                <label><input type="radio" name="trips" value="week">Week Long Trip</label>
+                <label>Number of adults in your party:<input list="adults" name="adults" size="2"></label>
+                <datalist id="adults">
+                    <option value=" ">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                </datalist>
+                <label>Number of children 10 and older in your party:<input list="child" name="child" size="2"></label>
+                <datalist id="child">
+                    <option value=" ">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                </datalist>
+                **If more than 8 in your party, please call (208)545-2298 to discuss arrangements**
+            </fieldset>
+            <input class="resBtn" type="submit" value="Reserve My Trip!">
         </form>
     </main>
     <footer>
-
+        &copy;Salmon River Adventures | <a href="#">Contact Us</a> | <a href="#">Gallery</a>
+        <br>
+        Last Updated:
+        <!--JS for update-->
     </footer>
 </body>
 
