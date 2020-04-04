@@ -1,0 +1,71 @@
+body {
+    font-size: 18px;
+    line-height: 1.5rem;
+    background-color: #dbb68f;
+}
+
+header {
+    background-color: #a3b18a;
+    color: #524632;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2;
+    align-items: center;
+    grid-gap: 10px;
+
+    img {
+        justify-self: end;
+    }
+
+    h1 {
+        grid-column: 2;
+        line-height: 2rem;
+    }
+}
+
+main {
+    display: grid;
+    grid-template-columns: 16% 3% 14% 13% 27% 13% 14%;
+    grid-template-rows: 16% 21% 20% 44%;
+    padding: 12px;
+
+    nav {
+        color: #524632;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #current {
+        grid-column: 1;
+        grid-row: 2;
+        line-height: 1rem;
+    }
+
+    #welcome {
+        grid-column-start: 3;
+        grid-column-end: 8;
+        grid-row: 3;
+    }
+
+    #cInfo {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #tripOne {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row: 4;
+    }
+
+    #tripTwo {
+        grid-column: 5;
+        grid-row: 4;
+    }
+
+    #tripThree {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row: 4;
+    }
+}
