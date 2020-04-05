@@ -29,17 +29,17 @@
                 <li class="active"><a href="reservation.html">Book Now</a></li>
             </ul>
         </nav>
-        <form method="get" action="#">
-            <fieldset>
+        <form class="res" method="get" action="#">
+            <fieldset class="reserve">
                 <legend>
                     <h3>Reserve your spot!</h3>
                 </legend>
-                <label>First & Last Name:*<input type="text" name="name" required pattern="[A-Za-z]{5, }"></label>
-                <label>Phone Number:*<input type="tel" name="phone" required pattern="[0-9]{10, }"
+                <label class="side">First & Last Name:* <input type="text" name="name" required pattern="[A-Za-z]{5, }"></label>
+                <label class="side">Phone Number:* <input type="tel" name="phone" required pattern="[0-9]{10, }"
                         placeholder="208778888"></label>
-                <label>Street Address:*<input type="text" name="address" required></label>
-                <label>City:*<input type="text" name="city" required></label>
-                <label>State:*<input list="states" name="states" required size="3"></label>
+                <label class="side">Street Address:* <input type="text" name="address" required></label>
+                <label class="side">City:* <input type="text" name="city" required></label>
+                <label class="side">State:* <input list="states" name="states" required size="3"></label>
                 <datalist id="states">
                     <option value="  ">
                     <option value="AK">
@@ -94,15 +94,15 @@
                     <option value="WY">
                 </datalist>
             </fieldset>
-            <fieldset>
+            <fieldset class="tripInfo">
                 <legend>
                     <h3>Trip Information</h3>
                 </legend>
-                Select your trip:
+                <h4>Select your trip:</h4>
                 <label><input type="radio" name="trips" value="single">Single Day Trip</label>
                 <label><input type="radio" name="trips" value="weekend">Weekend Trip</label>
                 <label><input type="radio" name="trips" value="week">Week Long Trip</label>
-                <label>Number of adults in your party:<input list="adults" name="adults" size="2"></label>
+                <label class="side">Number of adults in your party: <input list="adults" name="adults" size="2"></label>
                 <datalist id="adults">
                     <option value=" ">
                     <option value="1">
@@ -114,7 +114,7 @@
                     <option value="7">
                     <option value="8">
                 </datalist>
-                <label>Number of children 10 and older in your party:<input list="child" name="child" size="2"></label>
+                <label class="side">Number of children 10 and older in your party: <input list="child" name="child" size="2"></label>
                 <datalist id="child">
                     <option value=" ">
                     <option value="1">

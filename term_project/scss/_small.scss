@@ -167,7 +167,7 @@ main {
         padding: 5px;
     }
 
-    form {
+    form.contact {
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 3;
@@ -185,3 +185,29 @@ main {
 }
 
 /*-------------------------Book Now-----------------------------------*/
+main {
+    form.res {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 4;
+
+        fieldset.reserve label.side {
+            display: block;
+            padding: .5rem;
+        }
+
+        fieldset.tripInfo {
+            label {
+                display: block;
+                padding: .5rem;
+            }
+
+            input[type="radio"] {
+                margin-right: 1rem;
+            }
+
+        }
+    }
+
+}

@@ -431,17 +431,31 @@ main .contactPgMap {
   grid-row-start: 1;
   grid-row-end: 4;
   padding: 5px; }
-main form {
+main form.contact {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 5; }
-  main form fieldset label.side {
+  main form.contact fieldset label.side {
     display: block;
     padding: .5rem; }
-  main form label.side input:required:valid {
+  main form.contact label.side input:required:valid {
     background-color: #D5FFF3; }
 
 /*-------------------------Book Now-----------------------------------*/
+main form.res {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4; }
+  main form.res fieldset.reserve label.side {
+    display: block;
+    padding: .5rem; }
+  main form.res fieldset.tripInfo label {
+    display: block;
+    padding: .5rem; }
+  main form.res fieldset.tripInfo input[type="radio"] {
+    margin-right: 1rem; }
+
 /* end of media query */
 /* end of media query */
