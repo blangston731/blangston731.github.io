@@ -360,7 +360,8 @@ main {
     grid-row: 2;
     line-height: 1rem;
     background-color: #D5FFF3;
-    padding: 5px; }
+    padding: 5px;
+    border: 2px solid #4C061D; }
   main .welcome {
     grid-column-start: 2;
     grid-column-end: 7;
@@ -375,25 +376,29 @@ main {
     grid-row: 4;
     font-size: 16px;
     background-color: #D5FFF3;
-    padding: 5px; }
+    padding: 5px;
+    border: 2px solid #4C061D; }
   main .tripTwo {
     grid-column: 4;
     grid-row: 4;
     font-size: 16px;
     background-color: #D5FFF3;
-    padding: 5px; }
+    padding: 5px;
+    border: 2px solid #4C061D; }
   main .tripThree {
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row: 4;
     font-size: 16px;
     background-color: #D5FFF3;
-    padding: 5px; }
+    padding: 5px;
+    border: 2px solid #4C061D; }
 
 .welcome a,
 .tripOne a,
 .tripTwo a,
-.tripThree a, footer a {
+.tripThree a,
+footer a {
   text-decoration: none;
   font-weight: bold;
   color: #17140e; }
@@ -401,7 +406,8 @@ main {
 .welcome a:hover,
 .tripOne a:hover,
 .tripTwo a:hover,
-.tripThree a:hover, footer a:hover {
+.tripThree a:hover,
+footer a:hover {
   color: #4C061D;
   font-weight: bold; }
 
@@ -411,5 +417,31 @@ footer {
   margin-top: 10px;
   padding: 3px; }
 
+/*------------------------River Guides--------------------------------*/
+/*------------------------Contact Us----------------------------------*/
+main .contactWelcome {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 5px; }
+main .contactPgMap {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  padding: 5px; }
+main form {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5; }
+  main form fieldset label.side {
+    display: block;
+    padding: .5rem; }
+  main form label.side input:required:valid {
+    background-color: #D5FFF3; }
+
+/*-------------------------Book Now-----------------------------------*/
 /* end of media query */
 /* end of media query */
