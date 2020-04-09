@@ -745,16 +745,19 @@ main form.res fieldset.tripInfo input[type="radio"] {
       margin: 0;
       font-family: 'Fredericka the Great', cursive; }
     main .firstImg {
+      display: grid;
       grid-column-start: 2;
       grid-column-end: 4;
       grid-row-start: 1;
       grid-row-end: 3; }
     main .startImg {
+      display: grid;
       grid-column-start: 5;
-      grid-column-end: 6;
+      grid-column-end: 7;
       grid-row-start: 1;
       grid-row-end: 3; }
     main .thridImg {
+      display: grid;
       grid-column-start: 4;
       grid-column-end: 5;
       grid-row-start: 1;
@@ -820,6 +823,7 @@ main form.res fieldset.tripInfo input[type="radio"] {
       padding: 5px;
       border: 2px solid #4C061D; }
       main .tripThree img {
+        float: none;
         padding-left: 7%; }
 
   .welcome a,
@@ -857,11 +861,14 @@ main form.res fieldset.tripInfo input[type="radio"] {
     grid-row-end: 3;
     padding: 5px; }
   main .contactPgMap {
+    display: grid;
     grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 4;
-    padding: 5px 0px 0px 16px; }
+    padding: 5px 0px 0px 16px;
+    max-width: 550px;
+    max-height: 620px; }
   main form.contact {
     grid-column-start: 2;
     grid-column-end: 4;
@@ -875,6 +882,7 @@ main form.res fieldset.tripInfo input[type="radio"] {
 
   /*-------------------------Book Now-----------------------------------*/
   main .resPic {
+    display: grid;
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 1;

@@ -42,6 +42,7 @@ main {
     }
 
     .firstImg {
+        display: grid;
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 1;
@@ -49,13 +50,15 @@ main {
     }
 
     .startImg {
+        display: grid;
         grid-column-start: 5;
-        grid-column-end: 6;
+        grid-column-end: 7;
         grid-row-start: 1;
         grid-row-end: 3;
     }
 
     .thridImg {
+        display: grid;
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 1;
@@ -148,6 +151,7 @@ main {
         border: 2px solid #4C061D;
 
         img {
+            float: none;
             padding-left: 7%;
         }
     }
@@ -195,11 +199,14 @@ main {
     }
 
     .contactPgMap {
+        display: grid;
         grid-column-start: 4;
         grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 4;
         padding: 5px 0px 0px 16px;
+        max-width: 550px;
+        max-height: 620px;
     }
 
     form.contact {
@@ -222,6 +229,7 @@ main {
 /*-------------------------Book Now-----------------------------------*/
 main {
     .resPic {
+        display: grid;
         grid-column-start: 5;
         grid-column-end: 7;
         grid-row-start: 1;
