@@ -1,0 +1,247 @@
+body {
+    font-size: 18px;
+    line-height: 1.5rem;
+    background-color: #dbb68f;
+    color: #17140e;
+    font-family: 'Pavanam', sans-serif;
+}
+
+header {
+    background-color: #778165;
+    color: #17140e;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2;
+    align-items: center;
+    grid-gap: 10px;
+    font-family: 'Fredericka the Great', cursive;
+
+    img {
+        justify-self: end;
+    }
+
+    h1 {
+        grid-column: 2;
+        line-height: 2rem;
+    }
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 6% 14% 12% 32% 30%;
+    padding: 5px 12px 5px 12px;
+    align-items: start;
+    grid-gap: 10px;
+
+    h2,
+    h3,
+    h4 {
+        margin: 0;
+        font-family: 'Fredericka the Great', cursive;
+    }
+
+    .startImg {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 10px;
+    }
+
+    nav {
+        grid-column: 1;
+        grid-row: 1;
+        padding: 3px;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li a {
+                text-decoration: none;
+                color: #17140e;
+            }
+
+            li.active a {
+                font-weight: bold;
+                padding: 1px;
+                border: 3px dashed #4C061D;
+            }
+
+            li a:hover {
+                color: #4C061D;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .current {
+        grid-column: 1;
+        grid-row: 2;
+        line-height: 1rem;
+        background-color: #D5FFF3;
+        padding: 5px;
+        border: 2px solid #4C061D;
+    }
+
+    .welcome {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 3;
+        text-align: center;
+    }
+
+    .cInfo {
+        grid-column: 4;
+        grid-row: 1;
+        font-size: 14px;
+        padding-top: 30px;
+    }
+
+    .tripOne {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 4;
+        font-size: 16px;
+        background-color: #D5FFF3;
+        padding: 5px;
+        border: 2px solid #4C061D;
+
+        img {
+            padding-left: 7%;
+        }
+    }
+
+    .tripTwo {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row: 4;
+        font-size: 16px;
+        background-color: #D5FFF3;
+        padding: 5px;
+        border: 2px solid #4C061D;
+
+        img {
+            padding-left: 7%;
+        }
+    }
+
+    .tripThree {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 5;
+        font-size: 16px;
+        background-color: #D5FFF3;
+        padding: 5px;
+        border: 2px solid #4C061D;
+
+        img {
+            float: right;
+            padding-left: 7%;
+        }
+    }
+}
+
+.welcome a,
+.tripOne a,
+.tripTwo a,
+.tripThree a,
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #17140e;
+}
+
+.welcome a:hover,
+.tripOne a:hover,
+.tripTwo a:hover,
+.tripThree a:hover,
+footer a:hover {
+    color: #4C061D;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #778165;
+    text-align: center;
+    padding: 3px;
+}
+
+/*------------------------River Guides--------------------------------*/
+h1.guidetitle {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+/*------------------------Contact Us----------------------------------*/
+main {
+    .contactWelcome {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 5px;
+    }
+
+    .contactPgMap {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        padding: 5px 0px 0px 16px;
+    }
+
+    form.contact {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 5;
+
+        fieldset label.side {
+            display: block;
+            padding: .5rem;
+        }
+
+        label.side input:required:valid {
+            background-color: #D5FFF3;
+        }
+    }
+}
+
+/*-------------------------Book Now-----------------------------------*/
+main {
+    .resPic {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        padding: 10px;
+    }
+
+    form.res {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 4;
+
+        fieldset.reserve label.side {
+            display: block;
+            padding: .5rem;
+        }
+
+        fieldset.tripInfo {
+            label {
+                display: block;
+                padding: .5rem;
+            }
+
+            input[type="radio"] {
+                margin-right: 1rem;
+            }
+        }
+    }
+
+}

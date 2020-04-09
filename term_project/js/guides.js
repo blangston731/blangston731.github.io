@@ -7,8 +7,6 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const guide = jsonObject['guides'];
 
-        console.log(guide);
-
         guide.forEach(guides => {
             let slot = document.createElement('section');
             let h2 = document.createElement('h2');

@@ -17,6 +17,7 @@ header {
     font-family: 'Fredericka the Great', cursive;
 
     img {
+        max-width: 100px;
         justify-self: end;
     }
 
@@ -27,9 +28,7 @@ header {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 15% 14% 13% 27% 13% 14%;
-    grid-template-rows: 12% 24% 20% 42%;
+    display: block;
     padding: 5px 12px 5px 12px;
     align-items: start;
     grid-gap: 10px;
@@ -42,29 +41,18 @@ main {
     }
 
     .firstImg {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 3;
+       display:none;
     }
 
     .startImg {
-        grid-column-start: 5;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 3;
+       display: none;
     }
 
-    .thridImg {
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 3;
+    .thirdImg {
+        display:none;
     }
 
     nav {
-        grid-column: 1;
-        grid-row: 1;
         padding: 3px;
 
         ul {
@@ -91,8 +79,6 @@ main {
     }
 
     .current {
-        grid-column: 1;
-        grid-row: 2;
         line-height: 1rem;
         background-color: #D5FFF3;
         padding: 5px;
@@ -100,55 +86,45 @@ main {
     }
 
     .welcome {
-        grid-column-start: 2;
-        grid-column-end: 7;
-        grid-row: 3;
         text-align: center;
+        padding: 10px;
     }
 
     .cInfo {
-        grid-column: 1;
-        grid-row: 3;
+        padding: 8px;      
     }
 
     .tripOne {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row: 4;
+        
         font-size: 16px;
         background-color: #D5FFF3;
-        padding: 5px;
+        padding: 8px;
         border: 2px solid #4C061D;
 
         img {
-            padding-left: 7%;
+            max-width: 300px;
         }
     }
 
     .tripTwo {
-        grid-column: 4;
-        grid-row: 4;
         font-size: 16px;
         background-color: #D5FFF3;
         padding: 5px;
         border: 2px solid #4C061D;
 
         img {
-            padding-left: 7%;
+            max-width: 300px;
         }
     }
 
     .tripThree {
-        grid-column-start: 5;
-        grid-column-end: 7;
-        grid-row: 4;
         font-size: 16px;
         background-color: #D5FFF3;
         padding: 5px;
         border: 2px solid #4C061D;
 
         img {
-            padding-left: 7%;
+            max-width: 300px;
         }
     }
 }
@@ -183,19 +159,12 @@ footer {
 /*------------------------Contact Us----------------------------------*/
 main {
     .contactWelcome {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 3;
         padding: 5px;
     }
 
     .contactPgMap {
-        grid-column-start: 4;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 4;
-        padding: 5px;
+        max-width: 330px;
+        max-height: 400px;
     }
 
     form.contact {
@@ -218,19 +187,10 @@ main {
 /*-------------------------Book Now-----------------------------------*/
 main {
     .resPic {
-        grid-column-start: 5;
-        grid-column-end: 7;
-        grid-row-start: 1;
-        grid-row-end: 4;
-        padding: 10px;
+        display:none;
     }
 
     form.res {
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 4;
-
         fieldset.reserve label.side {
             display: block;
             padding: .5rem;
