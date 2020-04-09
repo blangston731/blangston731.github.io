@@ -29,11 +29,11 @@
         </nav>
         <div class="current">
             <h3>Current Weather</h3>
-            <p>Current Temp: </p>
-            <p>Current Conditions: </p>
-            <p>Wind Chill: </p>
-            <p>Humidity: </p>
-            <p>Wind Speed: </p>
+            <p>Current Temp: <span id="temp">&deg;F</span></p>
+            <p>Current Conditions: <span id="condition"></span></p>
+            <p>Feels Like: <span id="chill">&deg;F</span></p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Speed: <span id="speed"> mph</span></p>
         </div>
         <img class="firstImg" src="images/whitewater_kayak.jpg" alt="Whitewater Kayaking">
         <img class="startImg" src="images/calm_river_rafing.jpg" alt="Rafter floating down a calm river">
@@ -96,11 +96,9 @@
         </div>
     </main>
     <footer>
-        &copy;Salmon River Adventures | <a href="#">Attributions</a> | Breanne Langston
-        <br>
-        Last Updated:
-        <!--JS for update-->
+        &copy;2020 Salmon River Adventures | <a href="#">Attributions</a> | Breanne Langston
     </footer>
+    <script src="js/riggsWeather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
