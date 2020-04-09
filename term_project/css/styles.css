@@ -337,6 +337,21 @@ main {
   main h4 {
     margin: 0;
     font-family: 'Fredericka the Great', cursive; }
+  main .firstImg {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; }
+  main .startImg {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3; }
+  main .thridImg {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3; }
   main nav {
     grid-column: 1;
     grid-row: 1;
@@ -378,6 +393,8 @@ main {
     background-color: #D5FFF3;
     padding: 5px;
     border: 2px solid #4C061D; }
+    main .tripOne img {
+      padding-left: 7%; }
   main .tripTwo {
     grid-column: 4;
     grid-row: 4;
@@ -385,6 +402,8 @@ main {
     background-color: #D5FFF3;
     padding: 5px;
     border: 2px solid #4C061D; }
+    main .tripTwo img {
+      padding-left: 7%; }
   main .tripThree {
     grid-column-start: 5;
     grid-column-end: 7;
@@ -393,6 +412,8 @@ main {
     background-color: #D5FFF3;
     padding: 5px;
     border: 2px solid #4C061D; }
+    main .tripThree img {
+      padding-left: 7%; }
 
 .welcome a,
 .tripOne a,
@@ -414,7 +435,7 @@ footer a:hover {
 footer {
   background-color: #778165;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 50px;
   padding: 3px; }
 
 /*------------------------River Guides--------------------------------*/
@@ -443,6 +464,12 @@ main form.contact {
     background-color: #D5FFF3; }
 
 /*-------------------------Book Now-----------------------------------*/
+main .resPic {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  padding: 10px; }
 main form.res {
   grid-column-start: 2;
   grid-column-end: 5;
